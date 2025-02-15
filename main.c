@@ -208,10 +208,6 @@ bool is_hand_flush(Card* hand) {
     return true;
 }
 
-bool is_hand_straight_flush(Card* sorted_hand) {
-    return is_hand_flush(sorted_hand) && is_hand_straight(sorted_hand);
-}
-
 uint32_t get_hand_strength(HandStrength* hand_strength) {
     uint32_t res = 0;
     res += hand_strength->hand_value * pow(13, 5);
