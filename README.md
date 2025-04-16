@@ -1,0 +1,3 @@
+What is the purpose of this project?
+- To find the expected equities of the pot based on hole cards (e.g., 7-2 offsuit, jack-ten suited, kings), and how that relates to the number of players in the hand.
+- Provide a tool that players can use during a hand, where they enter their hole cards, the community cards, and the number of players that are in the hand, and view their expected equity of the pot.
